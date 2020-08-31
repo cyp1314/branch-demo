@@ -15,7 +15,7 @@ public class BranchDemoApplication {
 
     @GetMapping("/")
     public String hello(){
-        return "master,hello world!";
+        return "branch test,hello world!";
     }
 
 }
